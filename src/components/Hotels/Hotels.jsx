@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useHotels } from "../Context/HotelsProvider";
 
 const Hotels = () => {
-  const { isLoading, hotels } = useHotels();
+  const { isLoading, hotels, currentHotel } = useHotels();
   if (isLoading) return <div>...loading</div>;
   return (
     <div className="searchList">
@@ -13,7 +13,11 @@ const Hotels = () => {
           key={item.id}
           to={`/hotels/${item.id}?lat=${item.latitude}&lng=${item.longitude}`}
         >
-          <div className="searchItem">
+          <div
+            className={`searchItem ${
+              item.id === currentHotel?.id ? "current-hotel" : ""
+            }`}
+          >
             <img src={item.picture_url.url} alt="" />
             <div className="searchItemDesc">
               <p className="location">{item.smart_location}</p>
