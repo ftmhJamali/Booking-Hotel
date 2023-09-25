@@ -34,7 +34,7 @@ const Bookmark = () => {
               >
                 <div>
                   <ReactCountryFlag svg countryCode={item.countryCode} />
-                  &nbsp; <strong>{item.cityName}</strong> &nbsp;
+                  &nbsp; <strong>{item.city}</strong> &nbsp;
                   <span>{item.country}</span>
                 </div>
                 <button onClick={(e) => handleDelete(e, item.id)}>

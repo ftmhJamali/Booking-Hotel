@@ -1377,6 +1377,24 @@
       "longitude": "59.771476064576454",
       "host_location": "Mashhad Iran (Islamic Republic of)",
       "id": 7
+    },
+    {
+      "city": "Baku",
+      "country": "Azerbaijan",
+      "countryCode": "AZ",
+      "latitude": "40.4284407894284",
+      "longitude": "50.08668832328672",
+      "host_location": "Baku Azerbaijan",
+      "id": 8
+    },
+    {
+      "city": "Tehran",
+      "country": "Iran (Islamic Republic of)",
+      "countryCode": "IR",
+      "latitude": "35.71261432108071",
+      "longitude": "51.49512508479507",
+      "host_location": "Tehran Iran (Islamic Republic of)",
+      "id": 9
     }
   ]
 }
