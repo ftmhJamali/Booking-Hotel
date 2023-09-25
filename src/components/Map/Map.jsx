@@ -20,6 +20,10 @@ const Map = ({ markerLocation }) => {
       setMapCenter([geoPosition.lat, geoPosition.lng]);
     }
   }, [geoPosition]);
+  const handelposition = (e) => {
+    e.preventDefault();
+    getPosition();
+  };
   return (
     <div className="mapContainer">
       <MapContainer
@@ -29,7 +33,7 @@ const Map = ({ markerLocation }) => {
         scrollWheelZoom={true}
         style={{ height: "100vh" }}
       >
-        <button onClick={getPosition} className="getLocation">
+        <button onClick={(e) => handelposition(e)} className="getLocation">
           {geoloading ? "loading..." : "Your Location"}
         </button>
         <TileLayer

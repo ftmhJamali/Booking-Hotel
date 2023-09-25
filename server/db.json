@@ -1325,94 +1325,58 @@
   ],
   "bookmarks": [
     {
-      "cityName": "Abalessa",
-      "country": "Algeria",
-      "countryCode": "DZ",
-      "latitude": "23.18455079512732",
-      "longitude": "3.795523257510883",
-      "host_location": "Abalessa Algeria",
-      "id": 1
+      "city": "Gokdepe",
+      "country": "Turkmenistan",
+      "countryCode": "TM",
+      "latitude": "39.348614891221104",
+      "longitude": "58.50800762995077",
+      "host_location": "Gokdepe Turkmenistan",
+      "id": 2
     },
     {
-      "cityName": "Mahidasht",
-      "country": "Iran (Islamic Republic of)",
-      "countryCode": "IR",
-      "latitude": "34.32869425037187",
-      "longitude": "46.724183117022086",
-      "host_location": "Mahidasht Iran (Islamic Republic of)",
+      "city": "Tura",
+      "country": "Russian Federation (the)",
+      "countryCode": "RU",
+      "latitude": "64.83830348842406",
+      "longitude": "96.79297356646588",
+      "host_location": "Tura Russian Federation (the)",
+      "id": 3
+    },
+    {
+      "city": "Zouerate",
+      "country": "Mauritania",
+      "countryCode": "MR",
+      "latitude": "24.86321774846121",
+      "longitude": "-7.6138024975252465",
+      "host_location": "Zouerate Mauritania",
       "id": 4
     },
     {
-      "cityName": "Sanandaj",
-      "country": "Iran (Islamic Republic of)",
-      "countryCode": "IR",
-      "latitude": "35.31372444726279",
-      "longitude": "47.03114358752335",
-      "host_location": "Sanandaj Iran (Islamic Republic of)",
+      "city": "Caltanissetta",
+      "country": "Italy",
+      "countryCode": "IT",
+      "latitude": "37.57552078111907",
+      "longitude": "14.105879278367038",
+      "host_location": "Caltanissetta Italy",
       "id": 5
     },
     {
-      "cityName": "A Dakhla Oasis",
-      "country": "Egypt",
-      "countryCode": "EG",
-      "latitude": "25.02090651422749",
-      "longitude": "29.09059588509316",
-      "host_location": "A Dakhla Oasis Egypt",
-      "id": 7
+      "city": "Ati",
+      "country": "Chad",
+      "countryCode": "TD",
+      "latitude": "15.18850900242468",
+      "longitude": "18.51915891750258",
+      "host_location": "Ati Chad",
+      "id": 6
     },
     {
-      "cityName": "Baba Kot",
-      "country": "Pakistan",
-      "countryCode": "PK",
-      "latitude": "28.43528783183169",
-      "longitude": "67.78003711374224",
-      "host_location": "Baba Kot Pakistan",
-      "id": 8
-    },
-    {
-      "city": "Gourma Rharous",
-      "country": "Mali",
-      "countryCode": "ML",
-      "latitude": "16.209946702131134",
-      "longitude": "-1.9934465463629938",
-      "host_location": "Gourma Rharous Mali",
-      "id": 13
-    },
-    {
-      "city": "Foggaret Ezzaou",
-      "country": "Algeria",
-      "countryCode": "DZ",
-      "latitude": "27.988065285452286",
-      "longitude": "3.1932114398898914",
-      "host_location": "Foggaret Ezzaou Algeria",
-      "id": 14
-    },
-    {
-      "city": "Timbuktu",
-      "country": "Mali",
-      "countryCode": "ML",
-      "latitude": "20.677609540084617",
-      "longitude": "-4.930821649859614",
-      "host_location": "Timbuktu Mali",
-      "id": 15
-    },
-    {
-      "city": "Pardis",
+      "city": "Mashhad",
       "country": "Iran (Islamic Republic of)",
       "countryCode": "IR",
-      "latitude": "35.690120956944895",
-      "longitude": "51.828391051945644",
-      "host_location": "Pardis Iran (Islamic Republic of)",
-      "id": 16
-    },
-    {
-      "city": "Boutilimit",
-      "country": "Mauritania",
-      "countryCode": "MR",
-      "latitude": "18.14011533537706",
-      "longitude": "-13.747102350077785",
-      "host_location": "Boutilimit Mauritania",
-      "id": 17
+      "latitude": "36.30544582916774",
+      "longitude": "59.771476064576454",
+      "host_location": "Mashhad Iran (Islamic Republic of)",
+      "id": 7
     }
   ]
 }
